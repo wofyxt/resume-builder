@@ -32,9 +32,12 @@ body::before {
   z-index: 1; 
 }
 
-.container {
+.container{
   width: 90%;
   margin-left: 4%;
+}
+
+.welcome-block {
   height: 650px;
   position: relative;
 }
@@ -257,6 +260,10 @@ body::before {
   transform: translateY(-2px);
 }
 
+.test-icon {
+  width: 35%;
+}
+
 /* Адаптивность для мобильных устройств */
 @media (max-width: 1024px) {
   .header {
@@ -273,6 +280,28 @@ body::before {
     font-size: 14px;
   }
 }
+
+.about-us{
+  display: flex;
+  flex-direction: row;
+  padding-left: 2.5%;
+  justify-content: space-between;
+}
+
+ .right-block{
+  position: relative;
+  left: -140px;
+  width: 90%;
+  svg {width: inherit;
+  height: fit-content;}
+}
+
+  .left-block{
+  left: -140px;
+  width: 90%;
+  svg {width: inherit;
+  height: fit-content;}
+  }
 
 @media (max-width: 768px) {
   .header {
