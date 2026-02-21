@@ -311,6 +311,13 @@ body::before {
     border-radius: 15px;
   }
 
+  .right-block-picture{
+    position: absolute;
+    z-index: 1;
+    left: 355px;
+    top: 57%;
+  }
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
