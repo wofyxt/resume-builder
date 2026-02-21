@@ -318,6 +318,41 @@ body::before {
     top: 57%;
   }
 
+    .slider{
+      margin-top: 5%;;
+      width: 100%;;
+      display: flex;
+      justify-content: center;
+    }
+
+
+        .t-container {
+      width: 92%;
+      height: 600px;
+      position: relative;
+    }
+
+    .t-top {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 500px;
+      background: #b8c8d4;
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .t-leg {
+      position: absolute;
+      top: 450px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40%;
+      height: 120px;
+      background: #b8c8d4;
+      border-radius: 0 0 20px 20px;
+    }
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
